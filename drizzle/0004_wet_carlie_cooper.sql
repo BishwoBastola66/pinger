@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX "unique_active_incident" ON "incidents" USING btree ("monitor_id") WHERE status = 'ongoing';--> statement-breakpoint
+CREATE INDEX "heartbeat_secret_idx" ON "monitors" USING btree ("heartbeat_secret");

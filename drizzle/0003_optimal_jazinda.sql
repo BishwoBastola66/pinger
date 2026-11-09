@@ -1,0 +1,1 @@
+ALTER TABLE "monitors" ADD COLUMN "timezone" varchar(100);

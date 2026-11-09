@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build --webpack",
+
+  "env": {
+    "CNAME_TARGET": "cname.pingr.site"
+  }
+}
